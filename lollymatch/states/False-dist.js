@@ -1,0 +1,1 @@
+LollyMatch.False=function(){},LollyMatch.False.prototype={create:function(){this.state.start("Game")}};

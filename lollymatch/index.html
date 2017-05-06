@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width">
+
+	<title>lollyMatch</title>
+
+    <script src="lang/multilang.js"></script>
+     <script src="libs/phaser.min.js"></script>
+    <script src="states/Boot-dist.js"></script>
+    <script src="states/Preloader-dist.js"></script>
+    <script src="states/StartMenu-dist.js"></script>
+    <script src="states/Game-dist.js"></script>
+    <script src="states/False-dist.js"></script>
+	<style>	
+        html, body, #gameContainer { height: 100%; }
+        body{margin: 0; padding: 0; background-color: #71FFC5;}
+	</style>
+</head>
+<body>
+    <div id="gameContainer"></div>
+    <script type="text/javascript">
+      window.onload = function() {
+			var width = window.innerWidth * window.devicePixelRatio,
+			height = window.innerHeight * window.devicePixelRatio;
+			var windowRatio = window.innerWidth / window.innerHeight;
+			if(windowRatio < width / height){
+    			var height = width / windowRatio;
+			}
+            var game = new Phaser.Game(width, height, Phaser.CANVAS, 'gameContainer');
+            game.state.add('Boot', LollyMatch.Boot);
+            game.state.add('Preloader', LollyMatch.Preloader);
+            game.state.add('StartMenu', LollyMatch.StartMenu);
+            game.state.add('Game', LollyMatch.Game);
+            game.state.add('False', LollyMatch.False);
+            game.state.start('Boot');
+        }
+    </script>
+</body>
+</html>

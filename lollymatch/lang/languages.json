@@ -1,0 +1,36 @@
+﻿{
+	"en": {
+		"langdesc": "English",
+		"Score": "Score",
+		"High Score": "High Score",
+		"Your Score": "Your Score",
+		"Congratulation": "Congratulation",
+		"New": "New",
+		"Select Language": "Select Language",
+		"Reload" : "Reload",
+		"healtHint": "Keep an eye on them, \nthey will be empty overtime \nif you don't feed them",
+		"reviveHint": "Feed the sun and it will \nrevive one of the empty one",
+		"scoreHint": "You get score based on how much \nyou feed them and \nhow many of them are alive",
+		"reloadHint": "Don't forget to reload the lollys. \nYou can do it whenever you want",
+		"videoHint": "Press and drag along the same \ncolor lollys to make drops",
+		"closingHint": "keep making drops to feed them",
+		"Click": "Click Anywhere To Continue"
+	},
+	"ko": {
+		"langdesc": "Korean",
+		"Score": "점수",
+		"High Score": "높은 점수",
+		"Your Score": "너의 점수",
+		"Congratulation": "축하",
+		"New": "새로운",
+		"Select Language": "언어 선택",
+		"Reload" : "재 장전하다",
+		"healtHint": "그 (것)들에 주시하십시오, \n당신이 그 (것)들을 먹이지 않는 \n경우에 그들은 잔업하지 않을 것이다",
+		"reviveHint": "태양을 먹이면 빈 것 중 하나가 \n되살아납니다",
+		"scoreHint": "당신은 당신에게 먹이를주고 \n얼마나 많은 사람들이 살아 \n있는지에 따라 점수를 얻습니다",
+		"reloadHint": "롤리를 다시로드하는 것을 잊지 마십시오. \n언제든지 할 수 있습니다",
+		"videoHint": "동일한 색상의 롤리를 따라 \n누르면서 드래그하여 \n상품을 만듭니다",
+		"closingHint": "그들에게 먹이를 줄 \n방울을 계속 내라",
+		"Click": "계속하려면 아무 곳이나 클릭하십시오"
+	}
+}
